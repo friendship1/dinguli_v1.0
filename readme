@@ -1,0 +1,10 @@
+crontab discription
+
+every hour (on 45 min)  period.sh
+	Do. read txts in /txts and apply them to menu.js (By restarting)
+every day (on 10:40 AM) period_py.sh
+	Do. Login to ecm.dgist.ac.kr and get file download URL.
+	Do. Download xlsx file and parse it to txts in /txts
+every day (on 09:05 AM (Actually only Monday by script) week.sh
+	Do. Clear to 'bb' database AND Copy User ID Key to 'bb' database
+	Do. establish answer number in /baseball

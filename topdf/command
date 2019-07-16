@@ -1,0 +1,1 @@
+ssconvert --export-type=Gnumeric_pdf:pdf_assistant --export-options="sheet=korean paper=A4" menu0.xlsx ../../www/html/menus/menu0.pdf
